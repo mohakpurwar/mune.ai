@@ -1,0 +1,176 @@
+body {
+  background: var(--bgcolor);
+  color: var(--textcolor);
+}
+
+a {
+  color: var(--selection);
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  color: var(--cyan);
+}
+
+.btn:focus-visible {
+  background-color: var(--comment);
+  box-shadow: none !important;
+  color: var(--lightbgcolor);
+}
+
+.btn.show,
+.btn:hover {
+  background-color: var(--comment);
+  color: var(--lightbgcolor);
+}
+
+.btn-close,
+.btn-currency,
+.btn-outline-secondary {
+  background-color: var(--lightbgcolor);
+  border: 1px solid var(--comment);
+  border-radius: 0.375rem;
+}
+
+.btn-outline-info {
+  background-color: var(--lightbgcolor);
+  border: 1px solid var(--comment);
+  border-radius: 0.375rem;
+  color: var(--cyan);
+}
+
+.btn-outline-info:focus-visible,
+.btn-outline-info:hover {
+  box-shadow: none !important;
+  background-color: var(--cyan);
+  border: 1px solid var(--cyan);
+  border-radius: 0.375rem;
+  color: var(--lightbgcolor);
+}
+
+.btn-outline-primary {
+  background-color: var(--lightbgcolor);
+  border: 1px solid var(--comment);
+  border-radius: 0.375rem;
+  color: var(--purple);
+}
+
+.btn-outline-primary:focus-visible,
+.btn-outline-primary:hover {
+  background-color: var(--purple);
+  border: 1px solid var(--purple);
+  border-radius: 0.375rem;
+  color: var(--lightbgcolor);
+}
+
+.btn-outline-success {
+  background-color: var(--lightbgcolor);
+  border: 1px solid var(--comment);
+  border-radius: 0.375rem;
+  color: var(--highlight);
+}
+
+.btn-outline-success:focus-visible,
+.btn-outline-success:hover {
+  background-color: var(--highlight);
+  border: 1px solid var(--highlight);
+  border-radius: 0.375rem;
+  color: var(--lightbgcolor);
+}
+
+.card {
+  border: 1px solid var(--comment);
+  background: var(--lightbgcolor);
+  color: var(--textcolor);
+}
+
+.card-header {
+  border-bottom: 1px solid var(--comment);
+}
+
+.card-footer {
+  border-top: 1px solid var(--comment);
+}
+
+.fixed-width-font,
+.textarea {
+  font-family: ui-monospace, "SF Mono", Menlo, Monaco, "Andale Mono", monospace;
+}
+
+.form-control,
+.input-group-text,
+input .input-group-text,
+input.form-control,
+input.text-end.form-control {
+  background: var(--lightbgcolor);
+  border: 1px solid var(--comment);
+  color: var(--textcolor);
+}
+
+.form-control:focus,
+input.text-end.form-control:focus {
+  background: var(--lightbgcolor);
+  border: 1px solid var(--pink);
+  box-shadow: 0 0 0;
+  color: var(--textcolor);
+}
+
+.form-control:disabled {
+  background: var(--lightbgcolor);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  appearance: textfield;
+}
+
+.input-group-sm > .form-control {
+  font-size: 1rem;
+}
+
+.popover {
+  border: 1px solid var(--comment);
+  border-radius: 0.375rem;
+  width: auto;
+}
+
+.popover,
+.popover-header {
+  background: var(--lightbgcolor);
+  color: var(--textcolor);
+}
+
+.popover-header {
+  border-bottom: 0 solid var(--comment);
+  border: solid var(--comment);
+  border-width: 0 0 1px;
+}
+
+.popover .popover-arrow::after,
+.popover .popover-arrow::before {
+  border-bottom-color: var(--comment);
+  border-top-color: var(--comment);
+}
+
+.pre,
+.textarea {
+  background: var(--selection);
+  border-radius: 0;
+  font-size: 0.9em;
+  margin: 0.8em 0 1em;
+  max-height: 35vh;
+  overflow: auto;
+  padding: 0.6em 0.9em;
+}
+
+.straight-corners {
+  border-radius: 0;
+}
